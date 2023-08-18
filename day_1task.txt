@@ -1,0 +1,23 @@
+1). Write a blog on the difference between document windows object ?
+
+
+The window object represents a window/tab containing a DOM document where as document object is property of window object that points to the DOM document loaded in that window.
+
+	A clear understanding of Browser Object Model (BOM) and Document Object Model(DOM) resolves the problem.
+
+=>Browser Object Model (BOM)
+i)The Browser Object Model contains objects that represent the current browser window or tab.
+ 
+ii)The topmost object in the BOM is the window object representing the window or tab or an iframe sometimes.
+
+iii) Window object has properties like browser history, location and the device’s screen etc.
+
+iv) In case of multi tab browser, a window object represents a single tab, but some of its properties like innerHeight, innerWidth and methods like resizeTo() will affect the whole browser window.
+
+
+=>Document Object Model
+i)When a web page is loaded, the browser creates a Document Object Model of the page.
+
+ii) The document object represents the whole html document as a tree of Objects(HTML, HEAD, BODY, and other HTML tags).
+
+ iii)It is the root element that represents the html document.
